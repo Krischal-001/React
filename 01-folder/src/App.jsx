@@ -1,15 +1,21 @@
 import React from 'react'
+import  Card from './components/Card'
+import Nav from './components/Nav'
 
 const App =()=>{
+
   return(
 <>
-      <div id='parent'>
-      <h1 id='child1'>APP</h1>
-      <h3 id='child2'>Hello</h3>
-    </div>
-    <div id="chacha">
-    <h5 id="child3">Wassup</h5>
-    </div>
+
+<div>
+ <Card />
+ <Card />
+ <Card />
+ <Card />
+ <Card />
+
+ <Nav />
+</div>
 </>
   )
 }
